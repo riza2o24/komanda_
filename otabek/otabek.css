@@ -1,0 +1,70 @@
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container{
+    width: 1920px;
+    max-width: 1920px;
+    margin: auto;
+}
+
+
+/* UpItems */
+
+.UpItems{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+.prompt{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.prompt__p{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.UpItems__p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+b{
+    font-weight: 600;
+}
+
+.UpItems__us{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.UpItems__us--p{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    gap: 8px
+}
+
